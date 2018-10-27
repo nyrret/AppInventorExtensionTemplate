@@ -1,5 +1,5 @@
 
-package com.Alexa;  // change to package you are using
+package com.google.appinventor.components.runtime;
 /*
  * Author: Jessica Van Brummelen
  * Email: jess AT csail.mit.edu
@@ -20,7 +20,7 @@ import com.google.appinventor.components.runtime.*;
 import android.util.Log;
 
 @DesignerComponent(
-    version = Alexa.VERSION,   // change to version you are using, based on what you are creating an extension for
+    version = ExtensionTemplate.VERSION, 
     description =
         "A template for creating extensions.",
     category = ComponentCategory.EXTENSION, nonVisible = true,
