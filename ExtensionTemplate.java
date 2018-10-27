@@ -76,8 +76,8 @@ public class ExtensionTemplate extends AndroidNonvisibleComponent implements Com
   // example for getting a variable value
   @SimpleProperty(
     category = PropertyCategory.BEHAVIOR,     // set depending on what type of variable this is
-    description = "Gets value of exampleVal")
-  public String ExampleVal() {
+    description = "Gets value of exampleVar")
+  public String ExampleVar() {
 	  return this.exampleVar;
   }
 }
